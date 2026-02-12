@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { useState } from "react";
+import { terorist } from "./data/terrorists_data";
+import Rows from "./components/all-rows/Rows";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
+  const [teror, setTerorist] = useState(terorist);
   return (
     <>
-      
+      <Rows teror={teror} />;
     </>
-  )
+  );
 }
 
-export default App
+export default App;
