@@ -1,0 +1,17 @@
+.table {
+  background-color: antiquewhite;
+}
+
+.titlesOfTable {
+  margin: 1rem;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+ 
+.row {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
